@@ -34,3 +34,9 @@
 */
 
 // YOUR CODE HERE
+var name = prompt('enter your name here');
+var birthday = new Date(prompt('enter your birthdate here, mm, dd, yyyy'));
+
+
+
+//worked in console, could not find a way to calculate dates... 

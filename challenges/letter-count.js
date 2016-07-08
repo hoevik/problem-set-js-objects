@@ -12,7 +12,7 @@
     "e": 1
   }
   ```
-
+promt
   Bonuses
   - Make sure that lower case letters and upper case letters count for the same character.
   - Ignore spaces, special characters, and punctuation.
@@ -27,7 +27,11 @@
       "e": 0.2
     }
     ```
-
+.replace(/[^a-zA-Z0-9]/g,'').toLowercase().split('');
 */
-
+// word= e.replace(/[^a-zA-Z0-9]/g,'').toLowercase().split('');
 // YOUR CODE HERE
+var word = prompt("What's your sign?").toLowerCase().replace(/[^a-zA-Z0-9]/g,'').split('');
+  for(var i in word){
+    console.log(word[i]+':'/* numbers of brrah */ );
+  }
